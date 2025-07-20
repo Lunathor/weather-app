@@ -23,7 +23,7 @@ function App() {
         setLoading(true);
         setError(null);
         try {
-            const response = await axios.get(`https://api.openweathermap.org/data/3.0/onecall?lat=${lat}&lon=${lon}&exclude=minutely,hourly,alerts&units=metric&appid=${API_KEY}&lang=ru`
+            const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&lang=ru`
             );
             setWeatherData(response.data);
         } catch (err) {
