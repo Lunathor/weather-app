@@ -5,7 +5,7 @@ import CitySelector from "./CitySelector";
 import CurrentWeather from "./CurrentWeather";
 import FiveDayForecast from "./FiveDayForecast";
 import Loader from "./Loader";
-
+// 22a6db760bb0bcd8e79b5dd7e60678a0
 const API_KEY = process.env.REACT_APP_OPENWEATHER_API_KEY;
 
 function App() {
